@@ -33,7 +33,7 @@ char *ft_itoa(int n) {
   int sign;
 
   if (n == 0)
-    ft_strdup("0");
+    return(ft_strdup("0"));
   nbr = (long)n;
   sign = ft_sign(nbr);
   lenght = ft_lenght(nbr);
